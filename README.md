@@ -16,5 +16,16 @@ requirements:
   - titan quest with save games on local machine
   - config file adjusted to tq character folders
 
+installation:
+  - install ruby version 3 or higher
+  - edit configuration
+      - adding the exact locations of the char directories on your machine
+        - tip for easier use: create symlinks, otherwise this gets messy
+      - add whatever dirs you want to use to store item, wps files
+      - make sure all directories exist
+
+usage:
+  - call using ruby tq-cliedit.rb
+
 tested on titanquest on linux, ragnarok and atlantis extension
 so use it on YOUR OWN RISK, NO WARRANTIES AT ALL.
